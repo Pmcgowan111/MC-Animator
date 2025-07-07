@@ -1,0 +1,6 @@
+html,body,#app{margin:0;padding:0;height:100%;width:100%;overflow:hidden;background:#181818;color:#eee;font-family:sans-serif}
+#app{display:grid;grid-template-columns:1fr 260px;grid-template-rows:1fr 200px}
+#viewport{grid-column:1/2;grid-row:1/2;position:relative}
+#sidebar{grid-column:2/3;grid-row:1/2;overflow:auto;background:#202020;padding:8px}
+#timeline{grid-column:1/3;grid-row:2/3;background:#111;overflow:auto}
+button{background:#2ecc71;border:none;padding:6px 12px;color:#fff;border-radius:4px;margin:2px 0}
